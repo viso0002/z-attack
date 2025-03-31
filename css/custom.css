@@ -1,7 +1,7 @@
 :root {
   /* Colours */
   --primary-bg-color: #FCEB94; /* used */
-  --primary-font-color: #474d52; /* used */
+  --primary-font-color: #000000; /* used */
 
   --secondary-bg-color: #5d656c; /* used */
   --secondary-font-color: #d5e5f4; /* used */
@@ -16,7 +16,7 @@
   --danger-color: #dc3545;
 
   /* Borders */
-  --border-color: #007bff; /* used */
+  --border-color: #FF4B00; /* used */
   --border-color-light: #f7f5c2; /* used */
   --border-radius: 37px;
 
@@ -70,8 +70,8 @@
   --bodytext-bg-color: #dbdde3;
   --bodytext-bg-color-inverted: #dbdde3;
   --cta-text-bg-color: #FF4B00;
-  --cta-text-bg-color-inverted: #6F90EB;
-  --followup-text-bg-color: #FFFAE2;
+  --cta-text-bg-color-inverted: #FF4B00;
+  --followup-text-bg-color: #FF4B00;
   --followup-text-bg-color-inverted: #dbdde3;
   --form-background-color: #FF4B00;
   --form-text-color: #dbdde3;
