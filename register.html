@@ -19,20 +19,79 @@
           <a href="index.html"> LOGOTYPE </a>
         </div>
         <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
-          <li><a class="menuItem" href="register.html">Indberet</a></li>
+          <li><a class="menuItem" href="instruction.html">Gode råd</a></li>
+          <li><a class="menuItem" href="register.html">Personlig pakkeliste</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <h1>INDBERET</h1>
+      <h1>Personlig pakkeliste</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
+          <h2>Din personlige pakkeliste</h2>
+          <p>Udfyld formularen nedenfor, og vi sender dig en mail med vores bud på din personlige pakkeliste!</p>
         </article>
-        <form id="webform"></form>
+        <form>
+          <div id="webform-1">
+            <div class="form-group-flex">
+              <div class="form-group">
+                <label for="name">Navn:</label>
+                <input id="name" type="text" />
+              </div>
+              <div class="form-group">
+                <label for="alder">Alder:</label>
+                <input id="alder" type="number" min="1" max="100" />
+              </div>
+              <div class="form-group">
+                <label for="e-mail">E-mail:</label>
+                <input id="e-mail" type="email" />
+              </div>
+              <div class="form-group">
+                <label for="type">Køn:</label>
+                <select id="type" name="type" required>
+                  <option value="" disabled selected>Vælg køn</option>
+                  <option value="mand">Mand</option>
+                  <option value="kvinde">Kvinde</option>
+                  <option value="andet">Ønsker ikke at oplyse</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div id="webform-2">
+            <div class="form-group">
+              <label for="type">Rejsetype:</label>
+              <select id="type" name="type" required>
+                <option value="" disabled selected>Vælg rejsetype</option>
+                <option value="storby">Storby</option>
+                <option value="strand">Strand</option>
+                <option value="skiferie">Skiferie</option>
+                <option value="backpack">Backpack</option>
+                <option value="roadtrip">Roadtrip</option>
+                <option value="wellness">Wellness</option>
+                <option value="andet">Noget andet</option>
+              </select>
+            </div>
+          </div>
+          <div id="webform-3">
+            <div class="form-group">
+              <label for="name">Destination:</label>
+              <input id="destination" type="text" />
+            </div>
+          </div>
+          <div id="webform-4">
+            <div class="form-group-flex">
+              <label for="departure">Udrejse:</label>
+              <input type="date" id="departure" name="departure" required />
+              <label for="return">Hjemrejse:</label>
+              <input type="date" id="return" name="return" required />
+            </div>
+          </div>
+          <div id="btn">
+            <p>Tryk "indsend" og vi sender din personlige pakkeliste.</p>
+            <button>Indsend</button>
+          </div>
+        </form>
       </section>
       <section id="form-summary">
         <h2>Summary</h2>

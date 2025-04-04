@@ -30,3 +30,51 @@
   margin: 0 0 1.2rem 0;
   padding: 0;
 }
+
+#webform-1 .form-group {
+  margin-bottom: 0.5rem;
+}
+
+#webform-1 .form-group-flex {
+  display: flex;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#webform-1 label, input, button {
+  display: block;
+}
+
+#webform-2 .form-group {
+  padding: 1rem;
+}
+
+#webform-3 .form-group {
+  padding: 1rem;
+}
+#webform-4 .form-group-flex {
+  display: flex;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#webform-3 .form-group {
+  display: flex;
+  align-items: center;
+}
+
+#webform-3 .form-group label {
+  min-width: 100px; /* eller hvad der passer til din layout */
+}
+
+#btn {
+  padding: 1rem;
+  gap:0.5rem;
+}
+
+#form-info {
+  padding: 1rem;
+  gap:0.5rem;
+ }
