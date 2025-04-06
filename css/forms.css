@@ -78,3 +78,9 @@
   padding: 1rem;
   gap:0.5rem;
  }
+
+ #sum div {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  gap: 0.5rem;
+ }

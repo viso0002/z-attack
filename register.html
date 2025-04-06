@@ -16,7 +16,7 @@
     <header>
       <nav>
         <div id="logotype-wrapper">
-          <a href="index.html"> LOGOTYPE </a>
+          <a href="index.html"> SLUT MED PAKKEPANIK! </a>
         </div>
         <ul class="menu">
           <li><a class="menuItem" href="instruction.html">Gode råd</a></li>
@@ -32,7 +32,7 @@
           <h2>Din personlige pakkeliste</h2>
           <p>Udfyld formularen nedenfor, og vi sender dig en mail med vores bud på din personlige pakkeliste!</p>
         </article>
-        <form>
+        <form id="webform">
           <div id="webform-1">
             <div class="form-group-flex">
               <div class="form-group">
@@ -48,8 +48,8 @@
                 <input id="e-mail" type="email" />
               </div>
               <div class="form-group">
-                <label for="type">Køn:</label>
-                <select id="type" name="type" required>
+                <label for="gender">Køn:</label>
+                <select id="gender" name="gender" required>
                   <option value="" disabled selected>Vælg køn</option>
                   <option value="mand">Mand</option>
                   <option value="kvinde">Kvinde</option>
@@ -60,8 +60,8 @@
           </div>
           <div id="webform-2">
             <div class="form-group">
-              <label for="type">Rejsetype:</label>
-              <select id="type" name="type" required>
+              <label for="travelType">Rejsetype:</label>
+              <select id="travelType" name="travelType" required>
                 <option value="" disabled selected>Vælg rejsetype</option>
                 <option value="storby">Storby</option>
                 <option value="strand">Strand</option>
@@ -88,15 +88,50 @@
             </div>
           </div>
           <div id="btn">
-            <p>Tryk "indsend" og vi sender din personlige pakkeliste.</p>
+            <p>Tryk "indsend" og vi sender din personlige pakkeliste. Processen kan tage op til 3 hverdage.</p>
             <button>Indsend</button>
           </div>
         </form>
       </section>
       <section id="form-summary">
-        <h2>Summary</h2>
-        <article>
-          <p class="placeholder">Opsummering</p>
+        <h2>Opsummering</h2>
+        <article id="sum">
+          <div>
+            <h3>Navn:</h3>
+            <p id="sumName"></p>
+          </div>
+          <div>
+            <h3>Alder:</h3>
+            <p id="sumAge"></p>
+          </div>
+          <div>
+            <h3>E-mail:</h3>
+            <p id="sumEmail"></p>
+          </div>
+          <div>
+            <h3>Køn:</h3>
+            <p id="sumGender"></p>
+          </div>
+          <div>
+            <h3>Rejsetype:</h3>
+            <p id="sumType"></p>
+          </div>
+          <div>
+            <h3>Destination:</h3>
+            <p id="sumDestination"></p>
+          </div>
+          <div>
+            <h3>Udrejse:</h3>
+            <p id="sumDeparture"></p>
+          </div>
+          <div>
+            <h3>Hjemrejse:</h3>
+            <p id="sumReturn"></p>
+          </div>
+          <form>
+            <button id="reset_button" type="reset">Godkend</button>
+          </form>
+          <!-- <p class="placeholder">Opsummering</p> -->
         </article>
       </section>
     </main>
