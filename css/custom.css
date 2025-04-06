@@ -1,7 +1,7 @@
 :root {
   /* Colours */
-  --primary-bg-color: #e8ebee; /* used */
-  --primary-font-color: #474d52; /* used */
+  --primary-bg-color: #F6DCDB; /* used */
+  --primary-font-color: #000000; /* used */
 
   --secondary-bg-color: #5d656c; /* used */
   --secondary-font-color: #d5e5f4; /* used */
@@ -16,12 +16,12 @@
   --danger-color: #dc3545;
 
   /* Borders */
-  --border-color: #007bff; /* used */
+  --border-color: #FF4B00; /* used */
   --border-color-light: #f7f5c2; /* used */
-  --border-radius: 0.25rem;
+  --border-radius: 37px;
 
   /* Links */
-  --link-color: #84888e; /* used */
+  --link-color: #000000; /* used */
   --hover-color: #f9fcfe; /* used */
   --active-color: #f52727; /* used */
 
@@ -47,40 +47,40 @@
   --logotype-color: #ffffff;
   --headline-color: #bbc3ca;
   --headline-color-inverted: #f9fcfe;
-  --bodytext-color: #575c61;
+  --bodytext-color: #000000;
   --bodytext-color-inverted: #f9fcfe;
   --cta-text-color: #bbc3ca;
   --cta-text-color-inverted: #bbc3ca;
-  --followup-text-color: #575c61;
-  --followup-text-color-inverted: #bbc3ca;
-  --formfield-text-color: #575c61;
-  --form-submit-color: #bbc3ca;
+  --followup-text-color: #000000;
+  --followup-text-color-inverted: #000000;
+  --formfield-text-color: #000000;
+  --form-submit-color: #000000;
   --form-submit-color-inverted: #bbc3ca;
 
   /* Background colors */
-  --logotype-background-color: #a9aaae;
-  --header-background-color: #cfd5e5;
-  --article-background-color: #dbdde3;
-  --news-background-color: #dbdde3;
-  --news-background-color-inverted: #eeebe9;
-  --info-background-color: #dbdde3;
-  --headline-bg-color: #dbdde3;
-  --headline-bg-color-alert: #dbdde3;
-  --headline-bg-color-inverted: #dbdde3;
+  --logotype-background-color: #974547;
+  --header-background-color: #AF5554;
+  --article-background-color: #CDA3A5;
+  --news-background-color: #CDA3A5;
+  --news-background-color-inverted: #AF5554;
+  --info-background-color: #FFFFFF;
+  --headline-bg-color: #CDA3A5;
+  --headline-bg-color-alert: #CDA3A5;
+  --headline-bg-color-inverted: #AF5554;
   --bodytext-bg-color: #dbdde3;
   --bodytext-bg-color-inverted: #dbdde3;
-  --cta-text-bg-color: #dbdde3;
-  --cta-text-bg-color-inverted: #dbdde3;
-  --followup-text-bg-color: #e8ebee;
+  --cta-text-bg-color: #6D9CBC;
+  --cta-text-bg-color-inverted: #6D9CBC;
+  --followup-text-bg-color: #F6DCDB;
   --followup-text-bg-color-inverted: #dbdde3;
-  --form-background-color: #c5c7ce;
+  --form-background-color: #CDA3A5;
   --form-text-color: #dbdde3;
-  --formfield-background-color: #dbdde3;
-  --formfield-background-color-active: #dbdde3;
-  --form-submit-bg-color: #dbdde3;
+  --formfield-background-color: #FF4B00;
+  --formfield-background-color-active: #FF4B00;
+  --form-submit-bg-color: #FF4B00;
   --form-submit-bg-color-inverted: #dbdde3;
 
   /* Info-boxes */
-  --info-bg-color-yellow: #d6d5ce;
-  --info-bg-color-green: #a6a6a0;
+  --info-bg-color-yellow: #CDA3A5;
+  --info-bg-color-green: #955A5C;
 }
